@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>May Pearl J. Impas — Personal Portfolio | Student &amp; Creative Learner</title>
+  <meta name="description"
+    content="Official personal portfolio of May Pearl J. Impas, a student and creative learner from Gateways Institute of Science and Technology (GIST), Dela Paz, Antipolo.">
+  <meta name="author" content="May Pearl J. Impas">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="May Pearl J. Impas — Personal Portfolio">
+  <meta property="og:description"
+    content="Student &amp; Creative Learner at Gateways Institute of Science and Technology (GIST).">
+  <meta property="og:image" content="assets/may-pearl-cutout.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Fullscreen Background MP Emblem Backdrop -->
+  <div class="site-bg-emblem-fixed" aria-hidden="true"></div>
+  <div class="site-bg-glow-overlay" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       Navigation Bar (Aimee Rose Fixed Glass Style)
+       ========================================================================= -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-link" aria-label="May Pearl J. Impas Home">
+        <img src="assets/mp-logo-bg.jpg" alt="MP Emblem" class="brand-logo-img">
+        <span class="brand-name">MAY PEARL J. IMPAS</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#home" class="active">Home</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#achievements">Achievements</a></li>
+        <li class="nav-item"><a href="#blog">Blog</a></li>
+        <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a href="#social">Social</a></li>
+      </ul>
+
+      <!-- Action Button -->
+      <div style="display: flex; align-items: center; gap: 14px;">
+        <a href="#contact" class="nav-cta-btn">Contact</a>
+        <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul class="mobile-nav-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#social">Social</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div style="padding-top: 24px; border-top: 1px solid var(--border-glass);">
+      <a href="#contact" class="btn btn-white" style="width: 100%;">Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- =========================================================================
+         HERO SECTION (AIMEE ROSE SIGNATURE COMPOSITION)
+         ========================================================================= -->
+    <section class="hero-section" id="home">
+      <!-- Architectural Grid Background with Radial Mask -->
+      <div class="grid-bg-overlay radial-mask-hero"></div>
+
+      <div class="hero-spacer-top"></div>
+
+      <!-- Center Stage: Giant Chrome Shimmer Typography + Layered Cutout Portrait -->
+      <div class="hero-stage">
+        <!-- Glowing MP Crest Emblem in Background (Fit to screen) -->
+        <div class="hero-emblem-layer" aria-hidden="true"></div>
+
+        <!-- Giant 3D Chrome Shimmer Background Text -->
+        <h1 class="hero-giant-title animate-chrome-shimmer">MAY PEARL</h1>
+
+        <!-- Cutout Portrait Layered in Front -->
+        <div class="hero-cutout-container">
+          <img src="assets/may-pearl-cutout.png" alt="May Pearl J. Impas" class="hero-cutout-image">
+        </div>
+      </div>
+
+      <!-- Bottom Row Grid: Left Identity / Right Philosophy Triad & CTAs -->
+      <div class="container hero-bottom-grid">
+        <!-- Left Column -->
+        <div class="hero-identity-block">
+          <h2 class="hero-subtitle-heading">STUDENT &amp; CREATIVE LEARNER</h2>
+          <div class="hero-school-label">Gateways Institute of Science and Technology</div>
+          <div class="hero-location-pill">
+            <span class="dot"></span>
+            <span>Currently Studying &bull; Dela Paz</span>
+          </div>
+        </div>
+
+        <!-- Right Column: CREATE. COMMUNICATE. LEARN. -->
+        <div class="hero-triad-block">
+          <div class="hero-triad-words">
+            <span>CREATE.</span>
+            <span>COMMUNICATE.</span>
+            <span>LEARN<em>.</em></span>
+          </div>
+          <div class="hero-actions-row">
+            <a href="#achievements" class="btn btn-white">
+              <span>View Achievements</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-outline">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         ABOUT ME SECTION (AIMEE ROSE STYLE)
+         ========================================================================= -->
+    <section id="about">
+      <div class="grid-bg-overlay radial-mask-section"></div>
+      <div class="container">
+        <div class="section-eyebrow reveal reveal-left">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          <span>About Me // Student Profile</span>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Technical Arsenal / Student Pillars -->
+          <div class="arsenal-card reveal-scale">
+            <div class="arsenal-glow"></div>
+            <div>
+              <div class="arsenal-header">
+                <div class="arsenal-avatar">
+                  <img src="assets/original-portrait.jpg" alt="May Pearl Profile">
+                </div>
+                <div class="arsenal-name">
+                  <h3>May Pearl J. Impas</h3>
+                  <span>Student &bull; GIST</span>
+                </div>
+              </div>
+
+              <!-- Core Pillars -->
+              <ul class="pillar-list">
+                <li class="pillar-card">
+                  <div class="pillar-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                      <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                    </svg>
+                  </div>
+                  <div class="pillar-content">
+                    <h4>Creativity</h4>
+                    <p>Developing creative skills through story writing.</p>
+                  </div>
+                </li>
+
+                <li class="pillar-card">
+                  <div class="pillar-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <div class="pillar-content">
+                    <h4>Communication</h4>
+                    <p>Finding the right words to express meaning.</p>
+                  </div>
+                </li>
+
+                <li class="pillar-card">
+                  <div class="pillar-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path
+                        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                  </div>
+                  <div class="pillar-content">
+                    <h4>Critical Thinking</h4>
+                    <p>Finding solutions and turning them into reality.</p>
+                  </div>
+                </li>
+
+                <li class="pillar-card">
+                  <div class="pillar-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                  </div>
+                  <div class="pillar-content">
+                    <h4>Patience</h4>
+                    <p>Practicing patience in every assignment.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="arsenal-footer">
+              <span>&bull; Currently studying</span>
+              <span>Dela Paz</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Biography & Pull Quote -->
+          <div class="bio-card reveal-scale reveal-d2">
+            <div>
+              <h2 class="chrome-text-title">CREATING, LEARNING, GROWING.</h2>
+              <div class="bio-text">
+                <p>Good day! I am a student who loves to develop creative skills and gain experience in communication
+                  and learning. With the help of assignments like story writing, one can learn how to find the right
+                  words to express one’s meaning, organize and articulate the information properly, develop certain
+                  ideas further, and perfect the sense of detail. It was also a great chance to practice my patience and
+                  critical thinking and to learn how to find solutions to problems and turn them into reality.</p>
+                <p>Although today I am just a small part of what I hope to become, I believe that there is nothing
+                  stopping me from accomplishing my goals. It is essential to gain experiences and knowledge in various
+                  fields, and creativity, communication, and eagerness to learn will always help to achieve success. So
+                  let it be done!</p>
+              </div>
+            </div>
+
+            <div class="bio-quote-block">
+              <blockquote>“There is nothing stopping me from accomplishing my goals.”</blockquote>
+              <cite>— May Pearl J. Impas</cite>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         ACHIEVEMENTS SECTION (AIMEE ROSE "WORK" STYLE)
+         ========================================================================= -->
+    <section id="achievements">
+      <div class="grid-bg-overlay radial-mask-section"></div>
+      <div class="container">
+        <div class="section-eyebrow reveal reveal-left">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          <span>Achievements // Education &amp; Creative Works</span>
+        </div>
+        <h2 class="section-heading-big chrome-text-title reveal reveal-d1">MILESTONES SO FAR.</h2>
+        <p class="section-description reveal reveal-d2">Educational milestones and writing achievements documenting
+          continuous learning and creative growth.</p>
+
+        <!-- Milestones Grid -->
+        <div class="achievements-grid">
+          <!-- Junior High -->
+          <div class="achievement-card reveal-scale">
+            <div class="achievement-card-top">
+              <span class="milestone-badge">Junior High</span>
+              <span
+                style="font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-muted);">Completed</span>
+            </div>
+            <h3>Graduated Junior High</h3>
+            <div class="achievement-institution">Antipolo National School (ANHS)</div>
+            <p class="achievement-description">Graduated Grade 10 Section Hershel with flying colors, recognized for
+              leadership in science reporting, research analysis, and active classroom recitation.</p>
+          </div>
+
+          <!-- Elementary -->
+          <div class="achievement-card reveal-scale">
+            <div class="achievement-card-top">
+              <span class="milestone-badge">Elementary</span>
+              <span
+                style="font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-muted);">Completed</span>
+            </div>
+            <h3>Graduated Elementary</h3>
+            <div class="achievement-institution">Sta. Cruz Elementary School</div>
+            <p class="achievement-description">Established a foundational love for reading books, articulating ideas
+              clearly, developing creative curiosity, and academic discipline.</p>
+          </div>
+
+          <!-- Senior High (Current) -->
+          <div class="achievement-card reveal-scale" style="border-color: rgba(255, 255, 255, 0.2);">
+            <div class="achievement-card-top">
+              <span class="milestone-badge" style="background: #ffffff; color: #000000;">Current Journey</span>
+              <span style="font-family: var(--font-mono); font-size: 0.74rem; color: #22c55e;">In Progress</span>
+            </div>
+            <h3>Senior High School</h3>
+            <div class="achievement-institution">Gateways Institute of Science and Technology (GIST)</div>
+            <p class="achievement-description">Currently pursuing senior high school studies, actively developing
+              writing skills, critical analysis, and collaborative teamwork in Dela Paz.</p>
+          </div>
+        </div>
+
+        <!-- Featured Project: "The One and Only" Story Showcase -->
+        <div class="story-showcase-card reveal-scale reveal-d1">
+          <div class="story-showcase-header">
+            <div class="story-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+              </svg>
+              <span>Featured Creative Work &bull; Story Writing</span>
+            </div>
+            <h3 class="story-showcase-title chrome-text-title">The One and Only</h3>
+          </div>
+
+          <div class="story-lead-quote">
+            “Today, at the celebration, I feel confused about my feelings for His Majesty. I don’t know why he makes me
+            feel this way, but I know that he resembles someone from my past.”
+          </div>
+
+          <div class="story-actions-row">
+            <button type="button" class="btn btn-white btn-sm" id="toggleStoryBtn">
+              <span>Read Full Story Inline</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <button type="button" class="btn btn-outline btn-sm" id="openReaderModalBtn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+              </svg>
+              <span>Reader View</span>
+            </button>
+          </div>
+
+          <!-- Inline Expandable Story -->
+          <div class="inline-story-body" id="inlineStoryBody">
+            <div class="story-paragraphs">
+              <p>After that, he disappeared, and I did not see his face because it’s too dark.</p>
+              <p>Today, at the celebration, I feel confused about my feelings for His Majesty. I don’t know why he makes
+                me feel this way, but I know that he resembles someone from my past.</p>
+              <p>Ohh my... what do I do now? I accidentally bumped into His Majesty, and I thought he would be angry
+                with me, especially after all the bad things he heard about me from my stepmother and stepsister.</p>
+              <p>But instead of being angry, His Majesty tells me that it’s okay. His expression looks furios, but I
+                don’t think it’s because of me. He isn’t looking at me, and I feel as if someone behind me is saying bad
+                things about me.</p>
+              <p>I try to turn around, but His Majesty holds me and covers my eyes, saying that there’s no need to turn
+                around.</p>
+              <p>My heart beats faster and faster. Something comes to my mind: I see a little boy with black hair and
+                red eyes protecting my little self from Keah.</p>
+              <p>I have been standing still for about five minutes without noticing it. His Majesty calling my name
+                brings me back to reality. When I look at him, I see the little boy in him. Then I realize that they’re
+                the same person.</p>
+              <p>His Majesty is the little boy who was once my close childhood friend, the one who left me behind to
+                take the throne at a young age after his parents died in a carriage accident.</p>
+              <p>If my father hadn’t told me the reason why he left, maybe I couldn’t have forgiven him.</p>
+              <p>Then I accidentally say his name, “Drick,” the nickname I gave him when we were both still kids. When
+                he hears me say that name, he hugs me and says:</p>
+              <p style="padding-left: 20px; border-left: 2px solid #ffffff; font-style: italic; color: #ffffff;">“I miss
+                you. I really miss you. I’m glad that you remember me now. I’m sorry for leaving you behind without any
+                trace...”</p>
+              <p>It’s been weeks since the celebration party, but I still can’t forget His Majesty’s face. During dinner
+                with the empress and my stepsister, they continue to make fun of me and humiliate me in front of His
+                Majesty.</p>
+              <p>I wonder why His Majesty doesn’t pay attention to their words. He doesn’t seem interested in their
+                insults, but instead, he seems focused on something else.</p>
+              <p>I feel confused about my real feelings for him. The only thing I know is that he reminds me of someone
+                I was once close to.</p>
+              <p>While practicing fire magic, I accidentally bump into His Majesty. I expect him to be angry because of
+                the bad things my stepmother and stepsister have said about me, but he tells me that it’s okay.</p>
+              <p>Then he covers my eyes when I feel someone behind me talking badly about me. My heart begins beating
+                faster, and memories of a little boy with black hair and red eyes come back to me.</p>
+              <p>I realize that His Majesty is the same little boy who once protected me, my childhood friend who left
+                to take the throne after his parents died.</p>
+              <p>When I accidentally call him “Drick,” the nickname I gave him as a child, he hugs me and tells me that
+                he misses me. He is glad that I remember him and apologizes for leaving me behind without a trace.</p>
+              <p>Now, I understand that the person I have been remembering is the same person standing before me.</p>
+              <p>He is my childhood friend, my one and only hope, and the person who gives me the strength to continue
+                living.</p>
+
+              <div class="story-final-callout">
+                In the end, both Ferilyn and Hedrick rule their two powerful empires peacefully.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         BLOG SECTION (AIMEE ROSE STYLE)
+         ========================================================================= -->
+    <section id="blog">
+      <div class="grid-bg-overlay radial-mask-section"></div>
+      <div class="container">
+        <div class="section-eyebrow reveal reveal-left">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          <span>Blog // Sharing What I Learn</span>
+        </div>
+        <h2 class="section-heading-big chrome-text-title reveal reveal-d1">MY BLOG.</h2>
+        <p class="section-description reveal reveal-d2">Thoughts on reading, continuous learning, and finding confidence
+          as a student.</p>
+
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span class="blog-badge">Welcome Post &bull; Student Reflections</span>
+            <span class="blog-time">3 min read</span>
+          </div>
+
+          <h3 class="blog-title">Welcome to my blog</h3>
+
+          <div class="blog-excerpt">
+            <p>Hi everyone welcome to my blog. This is simply my way of sharing what I’ve learned over the years. I
+              found that I learn better by communicating my knowledge to others. Reading books can often be very
+              daunting and I find that I can get a little line stuck in my head which then gets me to think all day. By
+              communicating I can share this feeling.</p>
+          </div>
+
+          <!-- Expandable Full Post -->
+          <div class="blog-full-post" id="blogFullPost">
+            <p>I have found that getting into random topics helps me. It helps reduce stress around learning. As you are
+              doing it out of genuine interest you feel less pressure. You have more to say in conversations, feel a bit
+              more confident in speaking in class and meet other people who are interested in the same thing.</p>
+            <p>If you’re a student like me (still finding your way) this is for you! Don’t worry about having a perfect
+              plan just keep turning the page and asking questions. Your ideas are important and you should be heard.
+              Let’s learn together!</p>
+          </div>
+
+          <div class="blog-footer">
+            <div class="blog-tags">
+              <span class="tag-pill">#ContinuousLearning</span>
+              <span class="tag-pill">#Communication</span>
+              <span class="tag-pill">#StudentPerspectives</span>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <button type="button" class="btn btn-outline btn-sm" id="toggleBlogBtn">
+                <span>Read Complete Post</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              <button type="button" class="btn btn-outline btn-sm" id="shareBlogBtn" aria-label="Share post link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="18" cy="5" r="3" />
+                  <circle cx="6" cy="12" r="3" />
+                  <circle cx="18" cy="19" r="3" />
+                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                </svg>
+                <span>Share</span>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TESTIMONIALS SECTION (AIMEE ROSE STYLE)
+         ========================================================================= -->
+    <section id="testimonials">
+      <div class="grid-bg-overlay radial-mask-section"></div>
+      <div class="container">
+        <div class="section-eyebrow reveal reveal-left">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          <span>Testimonials // Kind Words</span>
+        </div>
+        <h2 class="section-heading-big chrome-text-title reveal reveal-d1">KIND WORDS.</h2>
+        <p class="section-description reveal reveal-d2">Observations and recommendations from teachers and youth leaders
+          documenting dedication, leadership, and personal growth.</p>
+
+        <!-- Category Filter Tabs -->
+        <div class="filter-tabs-row reveal">
+          <button type="button" class="tab-btn active" data-filter="all">All Words (4)</button>
+          <button type="button" class="tab-btn" data-filter="academic">Academic Mentors (2)</button>
+          <button type="button" class="tab-btn" data-filter="community">Community Leaders (2)</button>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- 1. Joyce Bilolo Ragotero -->
+          <div class="testimonial-card reveal-scale" data-category="academic">
+            <div class="quote-mark">“</div>
+            <p class="testimonial-text clamped">
+              I became teacher of Pearl Impas last school year, 2025-2026 to be exact. She belongs to grade 10, section
+              Hershel. During our science time last school year, as I observed Pearl Impas, in the first semester, first
+              and second quarter, I observed that she is to...she was too quiet but sometimes when her number is
+              randomly picked to recite she can answer sometimes I am not satisfied with her answer so I told them I
+              told the class that you must read your notes and get ready for the next day because I always conduct a
+              short review. So if you will attend my class, make sure that you are ready. And then, on the second
+              semester, I randomly picked her to be one of the group leader. And then, I am thinking that I should
+              assign her as a leader so that her personality, yung self-confidence niya will develop. I’ve seen her with
+              a potential. I think she has a leadership skill that’s why I chose her to be one of the leaders and then I
+              observed that every time that I gave them a group task or something to present in the class she was
+              leading her group. They have actually presented a good report. They discussed the topic assigned to them
+              very well. She also managed to present a very nice research analysis which is one of their performance
+              tasks. So over time, I have seen that she has, she showed improvement in my science class. She always
+              recite whenever we have our class discussion. She is prepared tasks assigned to them. Her grades improved
+              during the last semester. That’s why she finished grade 10 here with flying colors. So at least she got a
+              good grade in my subject. because she showed improvement in the way she studied, the habit inside the
+              class, and the circle.
+            </p>
+            <button type="button" class="read-toggle-btn">
+              <span>Read Full Note</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="testimonial-author">
+              <div class="author-monogram">JR</div>
+              <div class="author-details">
+                <h4>Joyce Bilolo Ragotero</h4>
+                <span>Grade 10 Science Teacher</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Khristian Ross Pimentel -->
+          <div class="testimonial-card reveal-scale" data-category="academic">
+            <div class="quote-mark">“</div>
+            <p class="testimonial-text clamped">
+              Good morning, I am the English teacher of Pearl Impas in grade 10 and I observed that she is very
+              inquisitive. She always asks questions, sometimes anything under the sun, so very random. So sometimes I
+              also find the questions related to the books she reads and some things that she needs to clarify in the
+              lesson. So there are times that she is very active in class and there are also times that she might be
+              interested in something else because there was a time that she didn’t recite that much. I tell her before
+              outside the classroom in the performance and she is very brave because there is an occasion when she
+              approached me about an incident that she clarified it to me and there is also a time that she assisted her
+              classmate to finish or accomplish a requirement. she is a team player with her group meets but there are
+              occasions that maybe she needs to listen also to the other members of the team.
+            </p>
+            <button type="button" class="read-toggle-btn">
+              <span>Read Full Note</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="testimonial-author">
+              <div class="author-monogram">KP</div>
+              <div class="author-details">
+                <h4>Khristian Ross Pimentel</h4>
+                <span>Grade 10 English Teacher</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Justin Lyoid T. Frias -->
+          <div class="testimonial-card reveal-scale" data-category="community">
+            <div class="quote-mark">“</div>
+            <p class="testimonial-text">
+              Si Pearl dati, um, years ago, nag-improve yung skills niya simula noong dating tahimik, ngayon, ano,
+              humaharap na sa mga tao. Mas nakikipag-communicate na sa mga kaedaran niya, da-- dito rin sa loob tsaka sa
+              labas nagagawa niya. Um, yung ginagawa niyang mga activities sa school like sa coding kahit nandito sa
+              loob ng church. So, nagiging masipag na siya. And then, um, yung talent niya din nahuhubog din like sa
+              pagkanta tsaka pagsayaw. So, yun, um, yun lang.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-monogram">JF</div>
+              <div class="author-details">
+                <h4>Justin Lyoid T. Frias</h4>
+                <span>Music Leader (JCLS)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Freianne Ocupio -->
+          <div class="testimonial-card reveal-scale" data-category="community">
+            <div class="quote-mark">“</div>
+            <p class="testimonial-text">
+              Before Pearl is a shy girl. Now, I can see that she improved her communication skills and confidence. She
+              learned to have confidence in herself, her personality, humility, and in everything. And that’s good for
+              her. That’s all.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-monogram">FO</div>
+              <div class="author-details">
+                <h4>Freianne Ocupio</h4>
+                <span>Teens Leader (JCLS)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SOCIAL MEDIA SECTION (AIMEE ROSE STYLE)
+         ========================================================================= -->
+    <section id="social">
+      <div class="grid-bg-overlay radial-mask-section"></div>
+      <div class="container">
+        <div class="section-eyebrow reveal reveal-left">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          <span>Social Media // Find Me Online</span>
+        </div>
+        <h2 class="section-heading-big chrome-text-title reveal reveal-d1">MY ACCOUNTS.</h2>
+        <p class="section-description reveal reveal-d2">Official online channels, creative profiles, and student portfolios. Click any account to visit directly.</p>
+
+        <div class="social-grid">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/share/14xFgx6bYCh/" target="_blank" rel="noopener noreferrer" class="social-item reveal-scale" aria-label="Visit May Pearl on Facebook">
+            <div class="social-item-top">
+              <div class="social-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+              </div>
+              <div class="social-text">
+                <h4>Facebook</h4>
+                <span>May Pearl J. Impas</span>
+              </div>
+            </div>
+            <div class="social-item-bottom">
+              <span class="social-verified-badge">Official Profile</span>
+              <span class="social-action-link">
+                <span>Visit Profile</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/pearlofnightsky" target="_blank" rel="noopener noreferrer" class="social-item reveal-scale reveal-d1" aria-label="Visit May Pearl on Instagram">
+            <div class="social-item-top">
+              <div class="social-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </div>
+              <div class="social-text">
+                <h4>Instagram</h4>
+                <span>@pearlofnightsky</span>
+              </div>
+            </div>
+            <div class="social-item-bottom">
+              <span class="social-verified-badge">Official Profile</span>
+              <span class="social-action-link">
+                <span>Visit Profile</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- TikTok -->
+          <a href="https://www.tiktok.com/@pearl_nightsky" target="_blank" rel="noopener noreferrer" class="social-item reveal-scale reveal-d2" aria-label="Visit May Pearl on TikTok">
+            <div class="social-item-top">
+              <div class="social-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                </svg>
+              </div>
+              <div class="social-text">
+                <h4>TikTok</h4>
+                <span>@pearl_nightsky</span>
+              </div>
+            </div>
+            <div class="social-item-bottom">
+              <span class="social-verified-badge">Official Profile</span>
+              <span class="social-action-link">
+                <span>Visit Profile</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/maypearlimpas-prog" target="_blank" rel="noopener noreferrer" class="social-item reveal-scale reveal-d3" aria-label="Visit May Pearl on GitHub">
+            <div class="social-item-top">
+              <div class="social-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1-.3 3.300 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+              </div>
+              <div class="social-text">
+                <h4>GitHub</h4>
+                <span>@maypearlimpas-prog</span>
+              </div>
+            </div>
+            <div class="social-item-bottom">
+              <span class="social-verified-badge">Developer Profile</span>
+              <span class="social-action-link">
+                <span>Visit Profile</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- YouTube -->
+          <a href="https://www.youtube.com/@MayPearlImpas" target="_blank" rel="noopener noreferrer" class="social-item reveal-scale reveal-d4" aria-label="Visit May Pearl on YouTube">
+            <div class="social-item-top">
+              <div class="social-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                </svg>
+              </div>
+              <div class="social-text">
+                <h4>YouTube</h4>
+                <span>@MayPearlImpas</span>
+              </div>
+            </div>
+            <div class="social-item-bottom">
+              <span class="social-verified-badge">Official Channel</span>
+              <span class="social-action-link">
+                <span>Visit Profile</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         CONTACT SECTION (AIMEE ROSE "PROJECT INQUIRIES" STYLE)
+         ========================================================================= -->
+    <section id="contact">
+      <div class="grid-bg-overlay radial-mask-section"></div>
+      <div class="container">
+        <div class="section-eyebrow reveal reveal-left">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          <span>Contact // Personal Information</span>
+        </div>
+        <h2 class="section-heading-big chrome-text-title reveal reveal-d1">MY DETAILS.</h2>
+        <p class="section-description reveal reveal-d2">Personal details and direct contact channels.</p>
+
+        <div class="contact-grid reveal">
+          <!-- Information Card -->
+          <div class="contact-info-card">
+            <h3>Personal Information</h3>
+            <div class="details-table">
+              <div class="detail-row">
+                <span class="detail-label">Name</span>
+                <span class="detail-value">May Pearl J. Impas</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Age</span>
+                <span class="detail-value">16 years old</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Birth Month</span>
+                <span class="detail-value">May</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Birth Year</span>
+                <span class="detail-value">2010</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Barangay</span>
+                <span class="detail-value">Dela Paz</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Contact Number</span>
+                <span class="detail-value"><a href="tel:09928611506">09928611506</a></span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Email Address</span>
+                <span class="detail-value"><a href="mailto:maypearlimpas@gmail.com">maypearlimpas@gmail.com</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-name" style="font-size: 0.95rem;">MAY PEARL J. IMPAS</span>
+          <p>“There is nothing stopping me from accomplishing my goals.” A personal student portfolio dedicated to
+            creativity, communication, and learning.</p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Education &amp; Roots</h4>
+          <ul class="footer-links">
+            <li><span>GIST Dela Paz</span></li>
+            <li><span>ANHS Alumni</span></li>
+            <li><span>Sta. Cruz ES Alumni</span></li>
+            <li><span>JCLS Youth</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 May Pearl J. Impas. All rights reserved.</div>
+        <a href="#home" class="back-to-top">
+          <span>Back to Top</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODAL READER (STORY)
+       ========================================================================= -->
+  <div class="modal-overlay" id="storyModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span
+            style="font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted);">Original
+            Story</span>
+          <h3 style="font-size: 1.25rem; font-weight: 800; text-transform: uppercase; color: #ffffff;">The One and Only
+          </h3>
+        </div>
+        <button type="button" class="modal-close" id="closeModalBtn" aria-label="Close reader">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>After that, he disappeared, and I did not see his face because it’s too dark.</p>
+        <p>Today, at the celebration, I feel confused about my feelings for His Majesty. I don’t know why he makes me
+          feel this way, but I know that he resembles someone from my past.</p>
+        <p>Ohh my... what do I do now? I accidentally bumped into His Majesty, and I thought he would be angry with me,
+          especially after all the bad things he heard about me from my stepmother and stepsister.</p>
+        <p>But instead of being angry, His Majesty tells me that it’s okay. His expression looks furios, but I don’t
+          think it’s because of me. He isn’t looking at me, and I feel as if someone behind me is saying bad things
+          about me.</p>
+        <p>I try to turn around, but His Majesty holds me and covers my eyes, saying that there’s no need to turn
+          around.</p>
+        <p>My heart beats faster and faster. Something comes to my mind: I see a little boy with black hair and red eyes
+          protecting my little self from Keah.</p>
+        <p>I have been standing still for about five minutes without noticing it. His Majesty calling my name brings me
+          back to reality. When I look at him, I see the little boy in him. Then I realize that they’re the same person.
+        </p>
+        <p>His Majesty is the little boy who was once my close childhood friend, the one who left me behind to take the
+          throne at a young age after his parents died in a carriage accident.</p>
+        <p>If my father hadn’t told me the reason why he left, maybe I couldn’t have forgiven him.</p>
+        <p>Then I accidentally say his name, “Drick,” the nickname I gave him when we were both still kids. When he
+          hears me say that name, he hugs me and says:</p>
+        <p style="padding-left: 20px; border-left: 2px solid #ffffff; font-style: italic; color: #ffffff;">“I miss you.
+          I really miss you. I’m glad that you remember me now. I’m sorry for leaving you behind without any trace...”
+        </p>
+        <p>It’s been weeks since the celebration party, but I still can’t forget His Majesty’s face. During dinner with
+          the empress and my stepsister, they continue to make fun of me and humiliate me in front of His Majesty.</p>
+        <p>I wonder why His Majesty doesn’t pay attention to their words. He doesn’t seem interested in their insults,
+          but instead, he seems focused on something else.</p>
+        <p>I feel confused about my real feelings for him. The only thing I know is that he reminds me of someone I was
+          once close to.</p>
+        <p>While practicing fire magic, I accidentally bump into His Majesty. I expect him to be angry because of the
+          bad things my stepmother and stepsister have said about me, but he tells me that it’s okay.</p>
+        <p>Then he covers my eyes when I feel someone behind me talking badly about me. My heart begins beating faster,
+          and memories of a little boy with black hair and red eyes come back to me.</p>
+        <p>I realize that His Majesty is the same little boy who once protected me, my childhood friend who left to take
+          the throne after his parents died.</p>
+        <p>When I accidentally call him “Drick,” the nickname I gave him as a child, he hugs me and tells me that he
+          misses me. He is glad that I remember him and apologizes for leaving me behind without a trace.</p>
+        <p>Now, I understand that the person I have been remembering is the same person standing before me.</p>
+        <p>He is my childhood friend, my one and only hope, and the person who gives me the strength to continue living.
+        </p>
+        <p
+          style="margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border-glass); font-weight: 700; color: #ffffff;">
+          In the end, both Ferilyn and Hedrick rule their two powerful empires peacefully.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
