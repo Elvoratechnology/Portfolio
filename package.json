@@ -2,10 +2,10 @@
   "name": "may-pearl-portfolio",
   "version": "1.0.0",
   "description": "Personal Portfolio Website for May Pearl J. Impas - Student & Creative Learner at Gateways Institute of Science and Technology (GIST)",
-  "main": "server.js",
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
+    "build": "echo 'Static build ready'",
     "serve": "node server.js"
   },
   "keywords": [
